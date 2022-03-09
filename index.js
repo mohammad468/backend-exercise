@@ -1,11 +1,20 @@
 let num1 = 5,
   num2 = 10;
 
-function Calculator() {
-  return num1 + num2;
+function Calculator(num1, num2, sign) {
+  let result;
+  switch (sign) {
+    case "+":
+      return (result = num1 + num2);
+    case "-":
+      return (result = num1 - num2);
+    case "*":
+      return (result = num1 * num2);
+    case "/":
+      return (result = num1 / num2);
+    default:
+      return (result = "not found");
+  }
 }
 
-const result = Calculator();
-console.log(result);
-
-// ریترن یک مقدار خروجی به تابع میدهد و آن مقدارِ خروجی را باز میگرداند
+console.log(Calculator(5, 6, "*"));
