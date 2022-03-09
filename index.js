@@ -5,3 +5,6 @@ console.log("typeof = ", typeof numbers);
 numbers[numbers.length] = 55;
 numbers[numbers.length] = 25;
 console.log("new array = ", numbers);
+
+// add item to akhare array
+numbers.push(41)
