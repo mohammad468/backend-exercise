@@ -7,4 +7,9 @@ numbers[numbers.length] = 25;
 console.log("new array = ", numbers);
 
 // add item to akhare array
-numbers.push(41)
+numbers.push(41);
+console.log("new array = ", numbers);
+
+// add item to avale array
+numbers.unshift(14);
+console.log("new array = ", numbers);
