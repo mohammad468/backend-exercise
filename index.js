@@ -1,20 +1,7 @@
-let num1 = 5,
-  num2 = 10;
-
-function Calculator(num1, num2, sign) {
-  let result;
-  switch (sign) {
-    case "+":
-      return (result = num1 + num2);
-    case "-":
-      return (result = num1 - num2);
-    case "*":
-      return (result = num1 * num2);
-    case "/":
-      return (result = num1 / num2);
-    default:
-      return (result = "not found");
-  }
-}
-
-console.log(Calculator(5, 6, "*"));
+let numbers = [1, 4, 8, 7, 0, 20, 5, 6];
+console.log(numbers);
+console.log("array length = ", numbers.length - 1);
+console.log("typeof = ", typeof numbers);
+numbers[numbers.length] = 55;
+numbers[numbers.length] = 25;
+console.log("new array = ", numbers);
