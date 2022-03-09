@@ -7,3 +7,5 @@ function Calculator() {
 
 const result = Calculator();
 console.log(result);
+
+// ریترن یک مقدار خروجی به تابع میدهد و آن مقدارِ خروجی را باز میگرداند
