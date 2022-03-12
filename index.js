@@ -1,4 +1,9 @@
-const fs = require("fs");
-fs.writeFileSync("./fs-text.txt", "new message for files", {
-  encoding: "utf-8",
-});
+const http = require("http");
+http
+  .createServer((req, res) => {
+    res.write("hello http server on nodejs");
+    res.end();
+  })
+  .listen(3000, () => {
+    console.log("http://localhost:3000");
+  });
