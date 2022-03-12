@@ -1,3 +1,2 @@
-// * Date and Time
-const date = new Date();
-console.log(date.toLocaleString("fa-IR"));
+import { userFilter } from "./filter-users.js";
+console.log(userFilter({ skills: "fullstack-developer" }));
