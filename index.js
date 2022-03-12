@@ -1,2 +1,2 @@
-import { userFilter } from "./filter-users.js";
-console.log(userFilter({ skills: "fullstack-developer" }));
+const path = require("path");
+console.log(path.basename(__dirname));
