@@ -1,3 +1,4 @@
 const fs = require("fs");
-const url = "00/01/02/03/04";
-fs.mkdirSync(url, { recursive: true });
+fs.writeFileSync("./fs-text.txt", "new message for files", {
+  encoding: "utf-8",
+});
