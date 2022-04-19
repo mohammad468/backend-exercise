@@ -1,0 +1,7 @@
+### post-data
+POST http://localhost:3000/post-data/alireza?family=mohseni
+Content-Type: application/json
+
+{
+    "name" : "ali akbar"
+}
